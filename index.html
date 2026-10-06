@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="JurisCore - Premium Legal Case & Client Management System for modern law firms, senior partners, and judicial litigation workflows." />
+  <title>JurisCore &mdash; Legal Case & Client Management System</title>
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+</head>
+<body>
+  <!-- Ambient 3D Subtle Background Canvas -->
+  <canvas id="ambient-background-canvas"></canvas>
+
+  <!-- Ambient Blurred Glow Elements -->
+  <div class="ambient-bg-wrapper" aria-hidden="true">
+    <div class="ambient-grid-overlay"></div>
+    <div class="ambient-orb ambient-orb-1"></div>
+    <div class="ambient-orb ambient-orb-2"></div>
+    <div class="ambient-orb ambient-orb-3"></div>
+  </div>
+
+  <!-- Primary Application Mount Point -->
+  <div id="app-container"></div>
+
+  <!-- Toast Container -->
+  <div id="toast-root" class="toast-container" aria-live="polite"></div>
+
+  <!-- Main ES Module Entry Point -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

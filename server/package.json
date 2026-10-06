@@ -1,0 +1,10 @@
+{
+  "name": "juriscore-backend",
+  "version": "1.0.0",
+  "description": "Node.js REST API for Legal Case & Client Management System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  }
+}
